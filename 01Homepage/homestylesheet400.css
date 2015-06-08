@@ -1,23 +1,24 @@
 @charset "utf-8";
 /* CSS Document */
 
-#mainframe{
-	width: 400px;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: #000000;
-}
-
-.menu{
-	width: 350px;
-	float: left;
-	background-color: #7C7C7C;
+.body {
+	background-color: #070E35;
 	color: #FFFFFF;
-	border-radius: 10px;
-	border-color: #FB595B;
+}
+.mainheader {
+	width: 300px;
+}
+.subbody {
 	margin-left: auto;
 	margin-right: auto;
+	width: 320px;
 }
-
-#topproduct{
-	
+.maincontent {
+	width: 300px;
+}
+.righttopcontent {
+	width: 300px;
+}
+.rightdowncontent {
+	width: 300px;
+}
