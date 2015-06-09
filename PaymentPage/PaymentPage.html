@@ -3,9 +3,88 @@
 <head>
 <meta charset="utf-8">
 <title>Payment</title>
-<link href="paystylesheet.css" rel="stylesheet" type="text/css">
+<link href="paystylesheet400.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
+<body style="background-color:#000;">
+
+<div class="mainframe">
+
+	<div class="logo"><img src="../Photo/GAMEROOM.jpg" width="350px" height="200px" /></div>
+    
+    <div class="menu">
+    	<a href="#">HOME</a>
+        <a href="#">OUR PRODUCT</a>
+        <a href="#">SHOPPING</a>
+        <a href="#">SHIPPING</a>
+        <a href="#">PAYMENT</a>
+        <a href="#">ABOUT US</a>
+        <a href="#">CONTACT US</a>
+        <a href="#">SITE MAP</a>
+    </div>
+    
+	<div class="content">
+    <fieldset>
+    	<legend>Payment Information</legend>
+        <table>
+        	<tr>
+            	<td colspan="2">Please Enter Your Credit Card Information below and click Submit</td>
+            </tr>
+            <tr>
+            	<td>Credit Card Accepter</td>
+                <td>
+                <select>
+                	<option>Mr</option>
+                    <option>Mrs.</option>
+                    <option>Miss.</option>
+                    <option>Ms.</option>
+                </select>
+                
+                <input type="text" name="name"/>
+                </td>
+            </tr>
+            <tr>
+            	<td>Card Number</td>
+                <td><input type="text" name="num"></td>
+            </tr>
+            <tr>
+            	<td>Expire Date</td>
+                <td><input type="date" name="date"/></td>
+            </tr>
+            <tr>
+            	<td>CVV</td>
+                <td><input type="text" name="num"/></td>
+            </tr>
+            <tr>
+            	<td>Country</td>
+                <td> <input type="text" name="name"/></td>
+            </tr>
+            <tr>
+            	<td>Address</td>
+                <td><textarea rows="7" cols="10"></textarea></td>
+            </tr>
+            <tr>
+            	<td>City</td>
+                <td> <input type="text" name="name"/></td>
+            </tr>
+            <tr>
+            	<td>State</td>
+                <td> <input type="text" name="name"/></td>
+            </tr>
+            <tr>
+            	<td>Zip Code</td>
+                <td> <input type="text" name="name"/></td>
+            </tr>
+            <tr>
+            	<td colspan="2"><center><input type="submit" value="Submit" name="submit"/></center></td>
+            </tr>
+        </table>
+    </fieldset>
+    </div>    
+    
+	<div class="footer">footer</div>
+
+</div>
+
 </body>
 </html>

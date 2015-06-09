@@ -1,3 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
+@media all and (max-width: 800px){
+.mainframe {
+	background-color: #000;
+	width:350px;
+	height:auto;
+	margin:auto;
+	color:#FFF;
+}
+.logo {
+	background-color: #FF9;
+	height: auto;
+	width:350px;
+	margin:auto;
+}
+.menu {
+	background-color: #6FC;
+	height: 50px;
+	width:350px;
+}
+.footer {
+	background-color: #F9C;
+	width:350px;
+	height:100px;
+}
+.content {
+	background-color:#66C;
+	width: 350px;
+	height:auto;
+}
+}
 
