@@ -3,7 +3,7 @@
 
 .mainframe {
 	background-color: #000;
-	width:400px;
+	width:350px;
 	height:auto;
 	margin:auto;
 	color:#FFF;
@@ -11,32 +11,32 @@
 .logo {
 	background-color: #FF9;
 	height: auto;
-	width:400px;
+	width:350px;
 	margin:auto;
 }
 .menu {
 	background-color: #6FC;
 	height: 50px;
-	width:400px;
+	width:350px;
 }
 .content {
 	background-color: #999;
-	width: 400px;
+	width: 350px;
 	height:auto;
 }
 .product {
 	background-color: #39F;
 	height:300px;
-	width:400px;
+	width:350px;
 }
 .memberzone {
 	background-color: #CF9;
-	width:400px;
+	width:350px;
 	height:200px;
 }
 .footer {
 	background-color: #F9C;
-	width:400px;
+	width:350px;
 	height:100px;
 }
 }
