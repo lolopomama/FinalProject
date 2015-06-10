@@ -1,4 +1,67 @@
 @charset "utf-8";
 /* CSS Document */
-@media all and (max-width: 1400px){
+
+.mainframe {
+	background-color: #000;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	color: #FFF;
+	font-family: antic;
+	font-style: normal;
+	font-weight: 400;
+}
+.logo {
+	height: auto;
+	width: 350px;
+	margin: auto;
+	float:left
+}
+.menu {
+	width: 1000px;
+	height:;
+	background-color: #9EFCDB;
+	float: left;
+}
+.content {
+	background-color: #999;
+	width: 350px;
+	height:auto;
+}
+.product {
+	background-color: #39F;
+	height:300px;
+	width:350px;
+}
+.memberzone {
+	background-color: #9AD067;
+	width: 350px;
+	height: 200px;
+	border-radius: 10px;
+}
+.footer {
+	background-color: #F9C;
+	width:350px;
+	height:100px;
+}
+.menuu {
+	height: 60px;
+	width: 150px;
+}
+.submenu {
+	text-align: center;
+	background-color: #9EFCDB;
+	border-style: solid;
+	border-width: thin;
+	color: #A7FFA3;
+	margin-bottom: 1px;
+	height: 23px;
+	width: 120px;
+	float: left;
+	font-style: normal;
+}
+
+a {
+	text-decoration: none;
+	color: #FF7600;
 }
