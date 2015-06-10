@@ -84,6 +84,38 @@ a {
 	margin-right: auto;
 	margin-top: 10px;
 }
+.itemimg {
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+.item {
+	height: 120px;
+	border: thin solid #F4FF89;
+	margin-bottom: 5px;
+}
+.buynow {
+	width: 90px;
+	margin-top: 70px;
+	margin-left: -150px;
+	height: 25px;
+}
+.gamename {
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	width: 200px;
+}
+.gamedes {
+	float: left;
+	margin-top: 40px;
+	margin-left: -185px;
+	color: #C5C5C5;
+	font-weight: lighter;
+	font-size: 15px;
+}
 
 
 
