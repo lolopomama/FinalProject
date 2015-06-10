@@ -3,10 +3,13 @@
 
 .mainframe {
 	background-color: #000;
-	width:350px;
-	height:auto;
-	margin:auto;
-	color:#FFF;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	color: #FFF;
+	font-family: antic;
+	font-style: normal;
+	font-weight: 400;
 }
 .logo {
 	background-color: #FF9;
