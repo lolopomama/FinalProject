@@ -10,21 +10,30 @@
 
 <div class="mainframe">
 
-	<div class="logo"><img src="../Photo/GAMEROOM.jpg" width="350px" height="200px" /></div>
+	<div class="logo"><img src="../Photo/GAMEROOM.jpg" class="logo" /></div>
     
     <div class="menu">
-    	<a href="#">HOME</a>
-        <a href="#">OUR PRODUCT</a>
-        <a href="#">SHOPPING</a>
-        <a href="#">SHIPPING</a>
-        <a href="#">PAYMENT</a>
-        <a href="#">ABOUT US</a>
-        <a href="#">CONTACT US</a>
-        <a href="#">SITE MAP</a>
+    	<div class = "submenu">
+        	<div class="insidesubmenu"><a href="../01Homepage/HomePage.html">HOME</a></div></div>
+        <div class = "submenu">
+        	<div class="insidesubmenu"><a href="../ProductPage/All Product.html">OUR PRODUCT</a></div></div>
+        <div class = "submenu">
+        	<div class="insidesubmenu"><a href="../ShoppingPage/ShoppingPage.html">SHOPPING</a></div></div>
+        <div class = "submenu">
+        	<div class="insidesubmenu"><a href="../ShippingPage/ShippingPage.html">SHIPPING</a></div></div>
+        <div class = "submenu">
+        	<div class="insidesubmenu"><a href="../PaymentPage/PaymentPage.html">PAYMENT</a></div></div>
+        <div class = "submenu">
+        	<div class="insidesubmenu"><a href="../02Aboutus/AboutUs.html">ABOUT US</a></div></div>
+        <div class = "submenu">
+        	<div class="insidesubmenu"><a href="../ContactUs/ContactUsPage.html">CONTACT US</a></div></div>
+        <div class = "submenu">
+        	<div class="insidesubmenu"><a href="../Sitemap/SiteMap.html">SITE MAP</a></div></div>
     </div>
     
 	<div class="content">
-    <fieldset>
+    <center><h2><b>SHIPPING</b></h2></center>
+    <fieldset style="border-radius: 10px;">
     	<legend>Shipping Address</legend>
         <table>
             <tr>
@@ -85,9 +94,46 @@
             </tr>
         </table>
     </fieldset>
-    </div>    
+    </div>   
     
-	<div class="footer">footer</div>
+    <div class="memberzone">
+    <center><fieldset style="border-radius: 10px;">
+    <legend ><b><h2>Member Zone</h2></b></legend>	
+    	<h3><table>
+        	<tr>
+            	<td>Username</td>
+                <td><input type="text" name="username" /></td>
+        	</tr>
+            <tr>
+            	<td>Password</td>
+                <td><input type="password" name="psw" /></td>
+            </tr>
+            <tr>
+            	<td colspan="2" style="color:#F00">*forget password</td>
+            </tr>
+            <tr>
+            	<td colspan="2"><input type="checkbox" name="login" />keep me logged in</td>
+            </tr>
+            <tr>
+            	<td colspan="2"><center><input type="submit" value="submit" name="submit" /></center></td>
+            </tr>
+        </table></h3>
+    </fieldset></center>
+    </div>
+    
+    <div class="product">
+    <b><h2><center>Our Product</center></h2></b>
+    	<h4><b><center>
+        <p><a href="../ProductPage/Assassins Creed Syndicate.html" style="color:#FFF;">Assassins Creed Syndicate</a></p>
+        <p><a href="../ProductPage/Dragon Ball Xenoverse.html"  style="color:#FFF;">Dragon Ball Xenoverse</a></p>
+        <p><a href="../ProductPage/Far Cry 4.html"  style="color:#FFF;">Far Cry 4</a></p>
+        <p><a href="../ProductPage/Grand Thef Auto V.html"  style="color:#FFF;">Grand Thef Auto V</a></p>
+        <p><a href="../ProductPage/Darksiders II.html"  style="color:#FFF;">Darksiders II</a></p>
+        <p><a href="../ProductPage/The Witchers 3 Wild Hunt.html"  style="color:#FFF;">The Witcher 3: Wild Hunt</a></p>
+        </center></b></h4>
+    </div>  
+    
+	<div class="footer"><img src="../Photo/GAMEROOM.jpg" class="footer"></div>
 
 </div>
 

@@ -1,32 +1,196 @@
 @charset "utf-8";
 /* CSS Document */
-@media all and (max-width: 800px){
+
 .mainframe {
 	background-color: #000;
-	width:350px;
-	height:auto;
-	margin:auto;
-	color:#FFF;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	color: #FFF;
+	font-family: antic;
+	font-style: normal;
+	font-weight: 400;
 }
 .logo {
-	background-color: #FF9;
 	height: auto;
-	width:350px;
-	margin:auto;
+	width: 350px;
+	margin: auto;
+	float:left
 }
 .menu {
-	background-color: #6FC;
+	width: 1000px;
+	height:;
+	background-color: #9EFCDB;
+	float: left;
 	height: 50px;
-	width:350px;
+}
+.content {
+	background-color: #999;
+	width: 650px;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	padding-left : 10px;
+	padding-right:10px;
+}
+.product {
+	background-color: #4776F5;
+	height: 300px;
+	width: 300px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	border-radius: 10px;
+}
+.memberzone {
+	background-color: #9AD067;
+	width: 300px;
+	border-radius: 10px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
 }
 .footer {
 	background-color: #F9C;
 	width:350px;
 	height:100px;
+	float:left;
 }
-.content {
-	background-color:#66C;
+
+.submenu {
+	text-align: center;
+	background-color: #9EFCDB;
+	border-style: solid;
+	border-width: thin;
+	color: #A7FFA3;
+	width: 120px;
+	float: left;
+	font-style: normal;
+	height: 30px;
+	margin-top: 8px;
+}
+
+a {
+	text-decoration: none;
+	color: #FF7600;
+}
+
+.insidesubmenu {
+	font-size: 18px;
+	margin-top: 6px;
+}
+.bannerimg {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.itemimg {
+	width: 200px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 10px;
+	float: left;
+}
+.item {
+	height: 120px;
+	border: thin solid #F4FF89;
+	margin-bottom: 5px;
+}
+.buynow {
+	width: 90px;
+	margin-top: 70px;
+	margin-left: -150px;
+	height: 25px;
+}
+.gamename {
+	margin-top: 20px;
+	margin-left: 20px;
+	float: left;
+	width: 200px;
+}
+.gamedes {
+	float: left;
+	margin-top: 40px;
+	margin-left: -185px;
+	color: #C5C5C5;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+
+
+
+
+
+
+ 
+@media all and (max-width: 800px){
+.mainframe {
+	background-color: #000;
 	width: 350px;
-	height:auto;
+	height: auto;
+	margin: auto;
+	color: #FFF;
+	font-family: antic;
+	font-style: normal;
+	font-weight: 400;
+}
+
+.bannerimg {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	width: 350px;
+}
+
+.menu {
+	width: 350px;
+	height: 250px;
+	background-color: #9EFCDB;
+	float: left;
+}
+
+.submenu {
+	text-align: center;
+	background-color: #9EFCDB;
+	border-style: solid;
+	border-width: thin;
+	color: #A7FFA3;
+	width: 340px;
+	float: left;
+	font-style: normal;
+	height: 20px;
+	
+}
+
+.content {
+	background-color: #999;
+	width: 330px;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+}
+
+.insidesubmenu {
+	font-size: 18px;
+	
+}
+
+.memberzone {
+	background-color: #9AD067;
+	width: 300px;
+	border-radius: 10px;
+	float: left;
+	margin-left: 25px;
+}
+
+.product {
+	background-color: #4776F5;
+	height: 300px;
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+	border-radius: 10px;
 }
 }
