@@ -22,7 +22,7 @@
 	height:;
 	background-color: #9EFCDB;
 	float: left;
-	height: 35px;
+	height: 50px;
 }
 .content {
 	background-color: #999;
@@ -34,7 +34,7 @@
 	padding-right:10px;
 }
 .product {
-	background-color:#4776F5;
+	background-color: #4776F5;
 	height: 300px;
 	width: 300px;
 	float: right;
@@ -63,11 +63,11 @@
 	border-style: solid;
 	border-width: thin;
 	color: #A7FFA3;
-	margin-bottom: 1px;
 	width: 120px;
 	float: left;
 	font-style: normal;
 	height: 30px;
+	margin-top: 8px;
 }
 
 a {
@@ -103,48 +103,62 @@ a {
 	font-style: normal;
 	font-weight: 400;
 }
-.logo {
-	height: auto;
+
+.bannerimg {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
 	width: 350px;
-	margin: auto;
 }
+
 .menu {
 	width: 350px;
+	height: 250px;
+	background-color: #9EFCDB;
+	float: left;
 }
-.content {
-	background-color: #999;
-	width: 350px;
-	height:auto;
-}
-.product {
-	background-color: #39F;
-	height:300px;
-	width:350px;
-}
-.memberzone {
-	background-color: #CF9;
-	width: 350px;
-	height: 200px;
-	border-radius: 10px;
-}
-.footer {
-	background-color: #F9C;
-	width:350px;
-	height:100px;
-}
-.menuu {
-	height: 60px;
-	width: 150px;
-}
+
 .submenu {
 	text-align: center;
-	border-radius: 5px;
-	background-color: #D3E3FF;
-	height: 25px;
-	border: thin solid #FFD4D6;
+	background-color: #9EFCDB;
+	border-style: solid;
+	border-width: thin;
 	color: #A7FFA3;
-	margin-bottom: 1px;
+	width: 340px;
+	float: left;
+	font-style: normal;
+	height: 20px;
+	
 }
 
+.content {
+	background-color: #999;
+	width: 330px;
+	height: auto;
+	float: left;
+	margin-top: 10px;
 }
 
+.insidesubmenu {
+	font-size: 18px;
+	
+}
+
+.memberzone {
+	background-color: #9AD067;
+	width: 300px;
+	border-radius: 10px;
+	float: left;
+	margin-left: 25px;
+}
+
+.product {
+	background-color: #4776F5;
+	height: 300px;
+	width: 300px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 25px;
+	border-radius: 10px;
+}
+}
