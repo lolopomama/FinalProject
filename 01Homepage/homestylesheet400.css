@@ -3,21 +3,21 @@
 @media all and (max-width: 800px){
 .mainframe {
 	background-color: #000;
-	width:350px;
-	height:auto;
-	margin:auto;
-	color:#FFF;
+	width: 350px;
+	height: auto;
+	margin: auto;
+	color: #FFF;
+	font-family: antic;
+	font-style: normal;
+	font-weight: 400;
 }
 .logo {
-	background-color: #FF9;
 	height: auto;
-	width:350px;
-	margin:auto;
+	width: 350px;
+	margin: auto;
 }
 .menu {
-	background-color: #6FC;
-	height: 50px;
-	width:350px;
+	width: 350px;
 }
 .content {
 	background-color: #999;
@@ -31,8 +31,9 @@
 }
 .memberzone {
 	background-color: #CF9;
-	width:350px;
-	height:200px;
+	width: 350px;
+	height: 200px;
+	border-radius: 10px;
 }
 .footer {
 	background-color: #F9C;
@@ -42,6 +43,15 @@
 .menuu {
 	height: 60px;
 	width: 150px;
+}
+.submenu {
+	text-align: center;
+	border-radius: 5px;
+	background-color: #D3E3FF;
+	height: 25px;
+	border: thin solid #FFD4D6;
+	color: #A7FFA3;
+	margin-bottom: 1px;
 }
 
 }
