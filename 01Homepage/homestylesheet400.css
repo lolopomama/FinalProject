@@ -85,7 +85,7 @@ a {
 	}
 	
 
-.submenu1 a {
+.submenu1 {
 	text-align: center;
 	background-color: #666;
 	border-style: solid;
@@ -141,12 +141,13 @@ a {
 	font-size: 15px;
 }
 .footerimg {
-	width: 350px;
+	width: 250px;
 	float: left;
 	height: 100px;
+	margin-top: 5px;
 }
 .infooter {
-	float: left;
+	float: right;
 	margin-top: 30px;
 }
 .user {
@@ -196,7 +197,7 @@ a {
 
 
 
-@media all and (max-width: 1000px){
+@media all and (max-width:1000px){
 	
 .mainframe {
 	background-color: #000;
@@ -231,6 +232,12 @@ a {
 	
 }
 
+.infooter {
+	float: left;
+	margin-top: 16px;
+	width: 300px;
+	margin-left: 60px;
+}
 }
 
 
@@ -364,4 +371,20 @@ a {
 
 }
 
+.footerimg {
+	width: 250px;
+	float: left;
+	height: 100px;
+	margin-top: 5px;
+	margin-left: 25px;
+}
 
+.infooter {
+	float: left;
+	margin-top: 16px;
+	width: 300px;
+	margin-left: 60px;
+	clear: left;
+	margin-left : 45px;
+}
+}
