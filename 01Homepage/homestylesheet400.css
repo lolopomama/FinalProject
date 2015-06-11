@@ -51,10 +51,8 @@
 	margin-right: 10px;
 }
 .footer {
-	background-color: #F9C;
-	width: 350px;
-	height: 150px;
 	float: left;
+	width: 1000px;
 }
 
 .submenu {
@@ -63,7 +61,7 @@
 	border-style: solid;
 	border-width: thin;
 	color: #A7FFA3;
-	width: 120px;
+	width: 130px;
 	float: left;
 	font-style: normal;
 	height: 30px;
@@ -115,6 +113,13 @@ a {
 	color: #C5C5C5;
 	font-weight: lighter;
 	font-size: 15px;
+}
+.footerimg {
+	width: 200px;
+	float: left;
+}
+.infooter {
+	float: right;
 }
 
 
