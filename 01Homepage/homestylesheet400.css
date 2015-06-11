@@ -32,9 +32,10 @@
 	margin-top: 10px;
 	padding-left : 10px;
 	padding-right:10px;
+	border-radius: 10px;
 }
 .product {
-	background-color: #4776F5;
+	background-color: #4776F5;#4776F5;;
 	height: 300px;
 	width: 300px;
 	float: right;
@@ -43,7 +44,7 @@
 	border-radius: 10px;
 }
 .memberzone {
-	background-color: #9AD067;
+	background-color: ;
 	width: 300px;
 	border-radius: 10px;
 	float: right;
@@ -53,6 +54,7 @@
 .footer {
 	float: left;
 	width: 1000px;
+	height: auto;
 }
 
 .submenu {
@@ -74,6 +76,30 @@ a {
 }
 
 .insidesubmenu {
+	font-size: 18px;
+	margin-top: 6px;
+	background-color:#3FC;
+}
+.insidesubmenu:hover{
+	background-color:#F99;
+	}
+	
+
+.submenu1 a {
+	text-align: center;
+	background-color: #666;
+	border-style: solid;
+	border-width: thin;
+	color:#FFF;
+	width: 130px;
+	float: left;
+	font-style: normal oblique;
+	height: 30px;
+	margin-top: 8px;
+}
+
+
+.insidesubmenu1 {
 	font-size: 18px;
 	margin-top: 6px;
 }
@@ -115,13 +141,56 @@ a {
 	font-size: 15px;
 }
 .footerimg {
-	width: 200px;
+	width: 350px;
 	float: left;
+	height: 100px;
 }
 .infooter {
-	float: right;
+	float: left;
+	margin-top: 30px;
 }
-
+.user {
+	float: left;
+	margin-left: 10px;	
+}
+.box {
+	float: left;
+	margin-left: 15px;
+}
+.box1 {
+	float: left;
+	margin-left: 21px;
+}
+.forget{
+	float: left;
+	margin-left: 55px;
+	margin-top: 8px;
+	}
+.keepme{
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+	}
+.submit{
+	float: left;
+	margin-left: 80px;
+	margin-top: 10px;
+	}
+.gamename{
+	float: left;
+	margin-left: 40px;
+	
+	}
+.gamename a{
+	text-decoration:none;
+	color:#FFF;
+	}
+.gamename a:hover{
+	color: #639;
+	}
+.allgamename{
+	margin-top: -30px;
+	}
 
 
 
@@ -162,15 +231,7 @@ a {
 	
 }
 
-
 }
-
-
-
-
-
-
-
 
 
  
@@ -185,30 +246,25 @@ a {
 	font-style: normal;
 	font-weight: 400;
 }
-
 .logo {
 	height: auto;
 	width: 250px;
 	margin-left: 25px;
 }
-
 .bannerimg {
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 10px;
 	width: 350px;
 }
-
 .menu {
 	width: 310px;
 	height: 250px;
 	background-color: #9EFCDB;
 	margin-left: 20px;	
 }
-
 .submenu {
 	text-align: center;
-	
 	border-style: solid;
 	border-width: thin;
 	color: #A7FFA3;
@@ -218,30 +274,27 @@ a {
 	height: 20px;
 	
 }
-
 .content {
 	background-color: #999;
 	width: 330px;
 	height: auto;
 	float: left;
 	margin-top: 10px;
+	border-radius: 10px;
 }
-
 .insidesubmenu {
 	font-size: 18px;
 	
 }
-
 .memberzone {
-	background-color: #9AD067;
+	background-color: ;
 	width: 300px;
 	border-radius: 10px;
 	float: left;
 	margin-left: 25px;
 }
-
 .product {
-	background-color: #4776F5;
+	background-color: ;
 	height: 300px;
 	width: 300px;
 	float: left;
@@ -249,8 +302,6 @@ a {
 	margin-left: 25px;
 	border-radius: 10px;
 }
-
-
 .itemimg {
 	width: 250px;
 	height: 120px;
@@ -284,4 +335,33 @@ a {
 	font-weight: lighter;
 	font-size: 15px;
 }
+.user {
+	float: left;
+	margin-left: 10px;	
 }
+.box {
+	float: left;
+	margin-left: 15px;
+}
+.box1 {
+	float: left;
+	margin-left: 21px;
+}
+.forget{
+	float: left;
+	margin-left: 55px;
+	margin-top: 8px;
+	}
+.keepme{
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+	}
+.submit{
+	float: left;
+	margin-left: 80px;
+	margin-top: 10px;
+
+}
+
+
