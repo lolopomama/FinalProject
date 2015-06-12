@@ -15,113 +15,70 @@
     
        <div class="menu">
     	<div class = "submenu">
-        	<div class="insidesubmenu"><a href="HomePage.html">HOME</a></div></div>
+        	<div class="insidesubmenu"><a href="../01Homepage/HomePage.html">HOME</a></div></div>
         <div class = "submenu">
         	<div class="insidesubmenu"><a href="../ProductPage/All Product.html">OUR PRODUCT</a></div></div>
         <div class = "submenu">
         	<div class="insidesubmenu"><a href="../ShoppingPage/ShoppingPage.html">SHOPPING</a></div></div>
         	 <div class = "submenu">
-        <div class="insidesubmenu"><a href="../RegisterForm/RegisterForm.html">REGISTERATION</a></div></div>
+        <div class="insidesubmenu"><a href="RegisterForm.html">REGISTERATION</a></div></div>
         	<div class = "submenu">
         <div class="insidesubmenu"><a href="../02Aboutus/AboutUs.html">ABOUT US</a></div></div>
         	<div class = "submenu">
-        <div class="insidesubmenu"><a href="../ContactUs/ContactUsPage.htm">CONTACT US</a></div></div>
+        <div class="insidesubmenu"><a href="../ContactUs/ContactUsPage.html">CONTACT US</a></div></div>
         	<div class = "submenu">
         <div class="insidesubmenu"><a href="../Sitemap/SiteMap.html">SITE MAP</a></div></div>
     </div>
     
     <div class="content">
-    <center><b><h2>NEW MEMBER</h2></b></center>
-    <fieldset style="border-radius: 10px;">
-    	<legend>User Account Info</legend>
-    <table width="326">
-    	<tr>
-        	<td>Username</td>
-            <td><input type="text" name="regis"/></td>
-        </tr>
-        <tr>
-        	<td>Password</td>
-            <td><input type="password" name="pwd" /></td>
-        </tr>
-        <tr>
-        	<td>Confirm Password</td>
-            <td><input type="password" name="pwd" /></td>
-        </tr>
-    </table>
-    </fieldset>
-    
-    <fieldset style="border-radius: 10px;">
-    	<legend>Contact Information</legend>
-    <table>
-    	<tr>
-        	<td>Firstname</td>
-            <td>
-            <select name="name">
-            	<option>Mr.</option>
-                <option>Mrs.</option>
-                <option>Miss</option>
-                <option>Ms.</option>
-            </select>
+    <center><b><h1>NEW MEMBER</h1></b></center>
+    <fieldset style="border-radius: 10px; background-color:#999;">
+    	<legend><h2>User Account Info</h2></legend>
+        
+        	<div class="regis">Username</div>
+            <div class="text"><input type="text" name="regis" style="width:150px; height: 20px;"/></div>
             
-            <input type="text" name="name">
-            </td>
-        </tr>
-        	<td>Lastname</td>
-            <td><input type="text" name="name">
-            </td>
-        <tr>
-            <td>gender</td>
-            <td>
-            <select name="gender">
-            	<option>male</option>
-                <option>female</option>
-            </select>
-            </td>
-        </tr>
-        <tr>
-        	<td>Date of Birth</td>
-            <td><input type="date" name="bday" value="dd/mm/yy"></td>
-        </tr>
-        <tr>
-        	<td>Email</td>
-            <td><input type="tetx" name="mail"/>
+            <div class="regis">Password</div>
+            <div class="text"><input type="password" name="pwd" style="width:150px; height: 20px;" /></div>
             
-            <select name="mail">
-            	<option>@hotmail.com</option>
-                <option>@gmail.com</option>
-                <option>@outlook.com</option>
-                <option>@yahoo.com</option>
-            </select>
-            </td>
-        </tr>
-        <tr>
-        	<td>Phone Number</td>
-            <td><input type="text" name="humber"/></td>
-        </tr>
-        <tr>
-        	<td>Address</td>
-            <td>
-            <textarea tows="10" cols="20" name="address"></textarea>
-            </td>
-        </tr>
-        <tr>
-        	<td>City</td>
-            <td><input type="text" name="city"/></td>
-        </tr>
-		<tr>
-        	<td>Country</td>
-            <td><input type="text" name="country"/></td>
-        </tr>
-        <tr>
-        	<td>Zip Code</td>
-            <td><input type="text" name="zip"/></td>
-        </tr>
-        <tr>
-        	<td colspan="2"><center><input type="submit" value="Submit" name="btnsubmit" /></center>
-            </td>
-        </tr>
-    </table>
-    </fieldset>
+            <div class="regis">Confirm Password</div>
+            <div class="text"><input type="password" name="pwd" style="width:150px; height: 20px;" /></div>
+     </fieldset>
+     <fieldset style="border-radius: 10px; background-color:#999;">
+     	<legend><h2>Contact Information</h2></legend>
+        	
+            <div class="regis">Firstname</div>
+            <div class="text"><input type="text" name="name" style="width:150px; height: 20px;"/></div>
+            
+            <div class="regis">Lastname</div>
+            <div class="text"><input type="text" name="name" style="width:150px; height: 20px;"></div>
+            
+            <div class="regis">Gender</div>
+            <div class="text"><input type="text" name="gender" style="width:150px; height: 20px;"/></div>
+            
+            <div class="regis">DOB</div>
+            <div class="text"><input type="date" name="bday" value="dd/mm/yy" style="width:150px; height: 20px;"></div>
+            
+            <div class="regis">Email</div>
+            <div class="text"><input type="tetx" name="mail" style="width:150px; height: 20px;"/></div>
+            
+            <div class="regis">Phone</div>
+            <div class="text"><input type="text" name="humber" style="width:150px; height: 20px;"/></div>
+            
+            <div class="regis">Address</div>
+            <div class="text"><textarea tows="10" cols="20" name="address"></textarea></div>
+            
+            <div class="regis">City</div>
+            <div class="text"><input type="text" name="city" style="width:150px; height: 20px;"/></div>
+            
+            <div class="regis">Country</div>
+            <div class="text"><input type="text" name="country" style="width:150px; height: 20px;"/></div>
+            
+            <div class="regis">Postal</div>
+            <div class="text"><input type="text" name="zip" style="width:150px; height: 20px;"/></div>
+            
+            <div class="subregis"><input type="submit" value="Submit" name="btnsubmit" style="width:80px; height: 50px;"/></div>
+     </fieldset>
     </div>
     
     <div class="memberzone">
