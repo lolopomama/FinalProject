@@ -126,7 +126,7 @@ a {
 	margin-left: -150px;
 	height: 25px;
 }
-.gamename {
+.gamename1 {
 	margin-top: 20px;
 	margin-left: 20px;
 	float: left;
@@ -179,7 +179,10 @@ a {
 	}
 .gamename{
 	float: left;
+	margin-top: 20px;
 	margin-left: 40px;
+	float: left;
+	width: 200px;
 	
 	}
 .gamename a{
@@ -328,7 +331,7 @@ a {
 	margin-left: -70px;
 	height: 25px;
 }
-.gamename {
+.gamename1 {
 	margin-top: 20px;
 	margin-left: 20px;
 	float: left;
