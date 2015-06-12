@@ -25,7 +25,7 @@
 	height: 50px;
 }
 .content {
-	background-color: #999;
+	background-color: ;
 	width: 650px;
 	height: auto;
 	float: left;
@@ -195,6 +195,22 @@ a {
 .allgamename{
 	margin-top: -30px;
 	}
+.shipad{
+	float: left;
+	width: 150px;
+	margin-left: 150px;
+	margin-top: 5px;
+	}
+.shiptext{
+	float: left;
+	margin-top:5px;
+	}
+.shipsub{
+	float: left;
+	margin-top: 20px;
+	margin-left: 300px;
+	}
+
 
 
 
@@ -285,7 +301,7 @@ a {
 	
 }
 .content {
-	background-color: #999;
+	background-color: ;
 	width: 330px;
 	height: auto;
 	float: left;
@@ -390,4 +406,20 @@ a {
 	clear: left;
 	margin-left : 45px;
 }
+.shipad{
+	float: left;
+	width: 80px;
+	margin-left: 30px;
+	margin-top: 5px;
+	}
+.shiptext{
+	float: left;
+	margin-top:5px;
+	margin-left: 30px;
+	}
+.shipsub{
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+	}
 }
