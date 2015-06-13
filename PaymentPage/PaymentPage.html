@@ -15,7 +15,7 @@
     
       <div class="menu">
     	<div class = "submenu">
-        	<div class="insidesubmenu"><a href="HomePage.html">HOME</a></div></div>
+        	<div class="insidesubmenu"><a href="../01Homepage/HomePage.html">HOME</a></div></div>
         <div class = "submenu">
         	<div class="insidesubmenu"><a href="../ProductPage/All Product.html">OUR PRODUCT</a></div></div>
         <div class = "submenu">
@@ -31,62 +31,41 @@
     </div>
     
 	<div class="content">
-    <center><b><h2>PAYMENT</h2></b></center>
-    <fieldset style="border-radius: 10px;">
-    	<legend>Payment Information</legend>
-        <table>
-        	<tr>
-            	<td colspan="2">Please Enter Your Credit Card Information below and click Submit</td>
-            </tr>
-            <tr>
-            	<td>Credit Card Accepter</td>
-                <td>
-                <select>
-                	<option>Mr</option>
-                    <option>Mrs.</option>
-                    <option>Miss.</option>
-                    <option>Ms.</option>
-                </select>
+    <center><b><h1>PAYMENT</h1></b></center>
+    <fieldset style="border-radius: 10px; background-color:#999;">
+    	<legend><h2>Payment Information</h2></legend>
+
+            	<center style="color:#F00;">Please Enter Your Credit Card Information below and click Submit</center>
+           
+            	<div class="regis">Credit Card Accepter</div>
+                <div class="text"><input type="text" name="name"/></div>
                 
-                <input type="text" name="name"/>
-                </td>
-            </tr>
-            <tr>
-            	<td>Card Number</td>
-                <td><input type="text" name="num"></td>
-            </tr>
-            <tr>
-            	<td>Expire Date</td>
-                <td><input type="date" name="date"/></td>
-            </tr>
-            <tr>
-            	<td>CVV</td>
-                <td><input type="text" name="num"/></td>
-            </tr>
-            <tr>
-            	<td>Country</td>
-                <td> <input type="text" name="name"/></td>
-            </tr>
-            <tr>
-            	<td>Address</td>
-                <td><textarea rows="7" cols="10"></textarea></td>
-            </tr>
-            <tr>
-            	<td>City</td>
-                <td> <input type="text" name="name"/></td>
-            </tr>
-            <tr>
-            	<td>State</td>
-                <td> <input type="text" name="name"/></td>
-            </tr>
-            <tr>
-            	<td>Zip Code</td>
-                <td> <input type="text" name="name"/></td>
-            </tr>
-            <tr>
-            	<td colspan="2"><center><input type="submit" value="Submit" name="submit"/></center></td>
-            </tr>
-        </table>
+                <div class="regis">Card Number</div>
+                <div class="text"><input type="text" name="num"></div>
+            
+                <div class="regis">Expire Date</div>
+                <div class="text"><input type="date" name="date"/></div>
+            
+                <div class="regis">CVV</div>
+                <div class="text"><input type="text" name="num"/></div>
+           
+                <div class="regis">Country</div>
+                <div class="text"><input type="text" name="name"/></div>
+           
+                <div class="regis">Address</div>
+                <div class="text"><textarea rows="10" cols="20" name="address"></textarea></div>
+            
+                <div class="regis">City</div>
+                <div class="text"><input type="text" name="name"/></div>
+            
+                <div class="regis">State</div>
+                <div class="text"><input type="text" name="name"/></div>
+            
+                <div class="regis">Postal</div>
+                <div class="text"><input type="text" name="name"/></div>
+            
+                <div class="subregis"><input type="submit" value="Submit" name="btnsubmit" style="width:80px; height: 50px;"/></div>
+            
     </fieldset>
     </div>   
     

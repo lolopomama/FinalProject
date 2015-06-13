@@ -25,7 +25,7 @@
 	height: 50px;
 }
 .content {
-	background-color: #999;
+	background-color: ;
 	width: 650px;
 	height: auto;
 	float: left;
@@ -195,8 +195,21 @@ a {
 .allgamename{
 	margin-top: -30px;
 	}
-
-
+.regis{
+	float: left;
+	width: 200px;
+	margin-left: 150px;
+	margin-top: 5px;
+	}
+.text{
+	float: left;
+	margin-top:5px;
+	}
+.subregis{
+	float: left;
+	margin-top: 20px;
+	margin-left: 300px;
+	}
 
 
 
@@ -285,7 +298,7 @@ a {
 	
 }
 .content {
-	background-color: #999;
+	background-color: ;
 	width: 330px;
 	height: auto;
 	float: left;
@@ -390,4 +403,20 @@ a {
 	clear: left;
 	margin-left : 45px;
 }
+.regis{
+	float: left;
+	width: 200px;
+	margin-left: 30px;
+	margin-top: 5px;
+	}
+.text{
+	float: left;
+	margin-top:5px;
+	margin-left: 30px;
+	}
+.subregis{
+	float: left;
+	margin-top: 20px;
+	margin-left: 100px;
+	}
 }
