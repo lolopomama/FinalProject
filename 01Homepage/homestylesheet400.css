@@ -12,10 +12,10 @@
 	font-weight: 400;
 }
 .logo {
-	height: auto;
-	width: 350px;
+	height: 150px;
+	width: 300px;
 	margin: auto;
-	float:left
+	float: left
 }
 .menu {
 	width: 1000px;
