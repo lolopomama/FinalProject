@@ -25,13 +25,13 @@
 	height: 50px;
 }
 .content {
-	background-color: #999;
+	background-color: #000000;
 	width: 650px;
 	height: auto;
 	float: left;
 	margin-top: 10px;
 	padding-left : 10px;
-	padding-right:10px;
+	padding-right: 10px;
 	border-radius: 10px;
 }
 .product {
@@ -195,6 +195,9 @@ a {
 .allgamename{
 	margin-top: -30px;
 	}
+.sitemap {
+}
+
 
 
 
@@ -241,6 +244,21 @@ a {
 	width: 300px;
 	margin-left: 60px;
 }
+
+.content {
+	background-color: #000000;
+	width: 650px;
+	height: auto;
+	float: left;
+	margin-top: 10px;
+	
+	padding-right: 10px;
+	border-radius: 10px;
+}
+.sitemap {
+	width: 640px;
+}
+
 }
 
 
@@ -285,7 +303,7 @@ a {
 	
 }
 .content {
-	background-color: #999;
+	background-color: #000000;
 	width: 330px;
 	height: auto;
 	float: left;
@@ -389,5 +407,9 @@ a {
 	margin-left: 60px;
 	clear: left;
 	margin-left : 45px;
+}
+
+.sitemap {
+	width: 320px;
 }
 }
