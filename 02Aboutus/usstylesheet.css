@@ -24,37 +24,106 @@
 	float: left;
 	height: 50px;
 }
-.content {
-	background-color: #999;
-	width: 650px;
-	height: auto;
+.boxnam {
+	width: 220px;
+	height: 330px;
 	float: left;
-	margin-top: 10px;
-	padding-left : 10px;
-	padding-right:10px;
-	border-radius: 10px;
+	margin: 10px 10px;
 }
+
+
+.Nam {
+	width: 200px;
+	height: 200px;
+	float: left;
+	margin: 10px 10px;
+}
+#name1 {
+	float: left;
+	margin: 10px 0px 100px;
+	color: #FFF;
+	margin-bottom: 100px;
+	height: 80px;
+	width: 200px;
+}
+.boxkon {
+	width: 220px;
+	float: left;
+	height: 330px;
+	margin: 10px 10px;
+}
+
 .product {
-	background-color: #4776F5;#4776F5;;
-	height: 300px;
-	width: 300px;
-	float: right;
-	margin-top: 10px;
-	margin-right: 10px;
-	border-radius: 10px;
+
+#4776F5;;
+	width: 200px;
+	height: 200px;
+	margin: 10px 10px;
+	float: left;
+	color: #FFF;
 }
+
+#name4 {
+	height: auto;
+	width: 200px;
+	margin: 10px 0px 100px;
+	color: #FFF;
+	float: left;
+	margin-bottom: 100px;
+}
+.boxguy {
+	height: 330px;
+	float: left;
+	width: 220px;
+	margin: 10px 10px;
+}
+
+.guy {
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin: 10px 10px;
+}
+
+#name2 {
+	margin: 10px 0px 100px;
+	color: #FFF;
+	float: left;
+	margin-bottom: 100px;
+	height: 80px;
+	width: 200px;
+}
+.boxpetch {
+	width: 220px;
+	height: 330px;
+	float: left;
+	margin: 10px 10px;
+}
+
+
+
 .memberzone {
 	background-color: ;
-	width: 300px;
-	border-radius: 10px;
-	float: right;
-	margin-top: 10px;
-	margin-right: 10px;
+	width: 200px;
+	height: 200px;
+	margin: 10px 10px;
+	float: left;
+	color: #FFF;
 }
+#name3 {
+	height: 80px;
+	margin: 10px 0px 100px;
+	color: #FFF;
+	float: left;
+	margin-bottom: 100px;
+	width: 200px;
+}
+
 .footer {
 	float: left;
 	width: 1000px;
 	height: auto;
+	margin: 50px 0px 50px;
 }
 
 .submenu {
@@ -144,7 +213,7 @@ a {
 	width: 250px;
 	float: left;
 	height: 100px;
-	margin-top: 5px;
+	margin-top: 30px;
 }
 .infooter {
 	float: right;
@@ -234,15 +303,22 @@ a {
 	float: left;
 	
 }
+.footerimg {
+	width: 250px;
+	float: left;
+	height: 100px;
+	margin-top: 10px;
+}
 
 .infooter {
 	float: left;
-	margin-top: 16px;
+	margin-top: 10px;
 	width: 300px;
 	margin-left: 60px;
 }
-}
 
+
+}
 
  
 @media all and (max-width: 600px){
@@ -353,10 +429,6 @@ a {
 	float: left;
 	margin-left: 15px;
 }
-.box1 {
-	float: left;
-	margin-left: 21px;
-}
 .forget{
 	float: left;
 	margin-left: 55px;
@@ -390,4 +462,7 @@ a {
 	clear: left;
 	margin-left : 45px;
 }
+
+
+
 }
